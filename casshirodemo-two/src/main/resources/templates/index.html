@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ec" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="icon" th:href="@{/favicon.ico}" type="image/x-icon"/>
+    <link rel="bookmark" th:href="@{/favicon.ico}" type="image/x-icon"/>
+</head>
+<body>
+<div shiro:hasAllPermissions="addProduct">
+    <a href="/addProduct">addProduct</a>
+</div>
+
+<div shiro:hasAllPermissions="deleteProduct">
+    <a href="/deleteProduct">deleteProduct</a>
+</div>
+
+<div shiro:hasAllPermissions="editProduct">
+    <a href="/editProduct">editProduct</a>
+</div>
+
+<div shiro:hasAllPermissions="updateProduct">
+    <a href="/updateProduct">updateProduct</a>
+</div>
+
+<div shiro:hasAllPermissions="listProduct">
+    <a href="/listProduct">listProduct</a>
+</div>
+
+<div shiro:hasAllPermissions="deleteOrder">
+    <a href="/deleteOrder">deleteOrder</a>
+</div>
+
+<div shiro:hasAllPermissions="editOrder">
+    <a href="#">editOrder</a>
+</div>
+
+<div shiro:hasAllPermissions="updateOrder">
+    <a href="#">updateOrder</a>
+</div>
+
+<div shiro:hasAllPermissions="listOrder">
+    <a href="#">listOrder</a>
+</div>
+
+<div shiro:hasAllPermissions="main">
+    <a href="#">main</a>
+</div>
+
+
+<div style="float: right">
+    <a href="https://localhost:8443/cas/logout?service=https://localhost:8443/cas/?service=http://localhost:8082/">tuichu</a>
+</div>
+</body>
+</html>

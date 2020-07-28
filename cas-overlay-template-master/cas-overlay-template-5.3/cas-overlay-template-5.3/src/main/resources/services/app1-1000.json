@@ -1,0 +1,9 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|imaps|http)://localhost:8081.*",
+  "name" : "测试客户端app1",
+  "id" : 1000,
+  "description" : "这是app1的客户端",
+  "evaluationOrder" : 10,
+  "theme" : "app1"
+}
