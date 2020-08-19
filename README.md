@@ -11,12 +11,16 @@
     
 ## 4.效果演示
    ### 4.1登录：
-   #### 访问casshirodemo-two项目调转到cas-overlay-template-master项目对应casshirodemo-two的登录页
+   #### 4.1.1访问casshirodemo-two项目跳转到cas-overlay-template-master项目对应casshirodemo-two的登录页
    ![Image text](https://github.com/GalacticSys/image/blob/master/cas-shiro/casshirodemo-two/login.PNG)
-   #### 4.2登陆成功图片
+   #### 4.1.1访问casshirodemo项目调转到cas-overlay-template-master项目对应casshirodemo的登录页
+   ![Image text](https://github.com/GalacticSys/image/blob/master/cas-shiro/casshirodemo-two/login.PNG)
+   ### 4.2登陆成功图片
    ![Image text](https://github.com/GalacticSys/image/blob/master/cas-shiro/casshirodemo-two/loginSuccess.PNG)
-   #### 4.2刷新casshirodemo项目显示菜单页
+   ### 4.3刷新casshirodemo项目显示菜单页
    ![Image text](https://github.com/GalacticSys/image/blob/master/cas-shiro/casshirodemo-two/restartOther.PNG)
-    
+   ### 4.4退出：
+   #### 4.4.1在casshirodemo-two项目中退出，会跳转到登录页，此时，若要刷新casshirodemo项目，也将会跳转到登录页。casshirodemo项目中退出同理
+   ![Image text](https://github.com/GalacticSys/image/blob/master/cas-shiro/casshirodemo-two/restartOther.PNG)
     
     
