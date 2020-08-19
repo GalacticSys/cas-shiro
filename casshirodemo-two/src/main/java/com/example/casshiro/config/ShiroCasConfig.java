@@ -30,7 +30,7 @@ import java.util.Map;
 @Configuration
 public class ShiroCasConfig {
     //    cas 的server地址
-    public static final String casServerUrlPrefix = "https://localhost:8443/cas";
+    public static final String casServerUrlPrefix = "http://localhost:8080/cas";
     //    cas 登录页面的地址
     public static final String casLoginUrl = casServerUrlPrefix + "/login";
     //    cas 登出页面地址

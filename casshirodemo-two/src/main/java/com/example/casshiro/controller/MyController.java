@@ -23,36 +23,42 @@ public class MyController {
     UserDao userDao;
 
     @RequestMapping("/addProduct")
+    @RequiresPermissions("addProduct")
     public String addProduct(){
 
         return "success";
     }
 
     @RequestMapping("/deleteProduct")
+    @RequiresPermissions("deleteProduct")
     public String deleteProduct(){
 
         return "success";
     }
 
     @RequestMapping("/editProduct")
+    @RequiresPermissions("editProduct")
     public String editProduct(){
 
         return "success";
     }
 
     @RequestMapping("/updateProduct")
+    @RequiresPermissions("updateProduct")
     public String updateProduct(){
 
         return "success";
     }
 
     @RequestMapping("/listProduct")
+    @RequiresPermissions("listProduct")
     public String listProduct(){
 
         return "success";
     }
 
     @RequestMapping("/deleteOrder")
+    @RequiresPermissions("deleteOrder")
     public String deleteOrder(){
 
         return "success";
